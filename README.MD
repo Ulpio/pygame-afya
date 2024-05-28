@@ -6,5 +6,5 @@ python -m venv .venv
 
 > Para instalar o Pygame
 ```shell
-pip install -r requirementes.txt
+pip install -r requirements.txt
 ```
