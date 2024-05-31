@@ -98,8 +98,8 @@ class Passaro:
 
 # Classe que representa o cano
 class Cano:
-    DISTANCIA = 200  # Distância entre os canos
-    VELOCIDADE = 5  # Velocidade de movimento dos canos
+    DISTANCIA = 170  # Distância entre os canos
+    VELOCIDADE = 8  # Velocidade de movimento dos canos
 
     def __init__(self, x):
         self.x = x  # Posição x inicial do cano
@@ -210,7 +210,7 @@ def main(genomas, config):
 
     rodando = True
     while rodando:
-        relogio.tick(60)  # Define o FPS
+        relogio.tick(30)  # Define o FPS
         for evento in pygame.event.get():
             if evento.type == pygame.QUIT:
                 rodando = False
